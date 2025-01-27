@@ -36,7 +36,7 @@ const AppContent = ({ children }: PropsWithChildren) => {
       customComponents={{
         transactionTracker: {
           // uncomment this to use the custom transaction tracker
-          // component: TransactionsTracker,
+          // component: TransactionsTracker, ///////
           props: {
             onSuccess: (sessionId: string) => {
               console.log(`Session ${sessionId} successfully completed`);
